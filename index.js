@@ -6,7 +6,7 @@ const app = express();
 const httpServer = http.createServer(app);
 
 
-app.get("/", (req, res) => res.send("Express on Vercel"));
+app.get("/", (req, res) => res.send("Express is Running!"));
 
 const io = new Server(httpServer, {
     cors: {
